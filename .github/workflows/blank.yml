@@ -1,0 +1,8 @@
+# Install xrdp
+sudo apt install xrdp
+
+# Start xrdp
+sudo systemctl start xrdp
+
+# Create a new ngrok tunnel to port 3389
+ngrok tcp 3389
